@@ -1,0 +1,168 @@
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.navigation-header {
+  background-image: url("https://i.postimg.cc/vH2GKcx1/pexels-steve-johnson-1985664.jpg");
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  padding: 20px;
+  margin: 30px auto;
+}
+
+.container {
+  padding: 10px 20px;
+  margin: 10px auto;
+}
+
+section {
+  padding: 30px 0;
+}
+
+h1,
+h2 {
+  color: rgb(250, 239, 231);
+}
+
+.portfolio .img {
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+
+.navigation ul,
+.name {
+  padding: 10px;
+  margin: auto;
+  display: inline-block;
+}
+
+.navList li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.navList li a {
+  color: rgb(253, 226, 208);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.name {
+  color: rgb(253, 226, 208);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.navigation ul {
+  float: right;
+}
+
+.header header a {
+  display: inline-block;
+  text-align: center;
+  color: azure;
+  font-size: 20px;
+  border: 1px solid rgb(250, 101, 27);
+  background-color: rgb(250, 101, 27);
+  padding: 10px 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.header h1,
+.header h2,
+.servises h3,
+.portfolio h3,
+.text-foto {
+  text-align: center;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.servises-data {
+  margin: 30px auto;
+}
+
+.servises-data i,
+.servises-data h5 {
+  display: block;
+  text-align: center;
+  padding: 20px auto;
+  margin: 30px auto;
+}
+
+.servises-data p {
+  margin: 20px auto;
+}
+
+.servises-data i {
+  font-size: 30px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border: 2px solid;
+  border-radius: 50%;
+  border-color: yellow;
+  color: yellow;
+}
+
+.foto img {
+  display: block;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.links ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+  margin: 10px 15px;
+}
+
+.links ul a {
+  font-size: 0;
+  display: inline-block;
+}
+
+.footer {
+  display: inline-block;
+  position: relative;
+}
+
+.copyright {
+  font-size: 12px;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+}
+
+.links ul li i {
+  color: antiquewhite;
+  padding: 20px;
+  font-size: 15px;
+  border: 1px solid rgb(34, 34, 34);
+  border-radius: 50%;
+  background-color: rgb(34, 34, 34);
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  transition: all 1s;
+  display: inline-block;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.servises h3,
+.portfolio h3 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLHNCQUFBO0FDQ0o7O0FERUE7RUFDSSx1RkFBQTtFQUNBLHNCQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsYUFBQTtFQUNBLGlCQUFBO0FDQ0o7O0FERUE7RUFDSSxrQkFBQTtFQUNBLGlCQUFBO0FDQ0o7O0FERUE7RUFDUSxlQUFBO0FDQ1I7O0FERUE7O0VBRUkseUJBQUE7QUNDSjs7QURFQTtFQUNJLGFBQUE7RUFDQSxZQUFBO0VBQ0EsWUFBQTtBQ0NKOztBREVBOztFQUdJLGFBQUE7RUFDQSxZQUFBO0VBQ0EscUJBQUE7QUNBSjs7QURFQTtFQUNJLHFCQUFBO0VBQ0EsZUFBQTtBQ0NKOztBREVBO0VBQ0kseUJBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7QUNDSjs7QURFQTtFQUNJLHlCQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0FDQ0o7O0FERUE7RUFDQSxZQUFBO0FDQ0E7O0FERUE7RUFDQyxxQkFBQTtFQUNHLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7RUFDQSxtQ0FBQTtFQUNBLG1DQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0FDQ0o7O0FERUE7Ozs7O0VBS0ksa0JBQUE7RUFDQSxpQkFBQTtFQUNBLGFBQUE7QUNDSjs7QURHQTtFQUNJLGlCQUFBO0FDQUo7O0FER0E7O0VBRUksY0FBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtBQ0FKOztBREdBO0VBQ0ksaUJBQUE7QUNBSjs7QURHQTtFQUNJLGVBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGlCQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLG9CQUFBO0VBQ0EsYUFBQTtBQ0FKOztBREdBO0VBQ0ksY0FBQTtFQUNBLGFBQUE7RUFDQSxvQkFBQTtLQUFBLGlCQUFBO0VBQ0EsV0FBQTtBQ0FKOztBREdBO0VBQ0kscUJBQUE7RUFDQSxxQkFBQTtFQUNBLGFBQUE7RUFDQSxpQkFBQTtBQ0FKOztBRElBO0VBQ0ksWUFBQTtFQUNBLHFCQUFBO0FDREo7O0FESUM7RUFDRyxxQkFBQTtFQUNBLGtCQUFBO0FDREo7O0FESUE7RUFDSyxlQUFBO0VBQ0EscUJBQUE7RUFDQSxTQUFBO0VBQ0Esa0JBQUE7RUFDQSxRQUFBO0FDREw7O0FESUM7RUFDSSxtQkFBQTtFQUNBLGFBQUE7RUFDQSxlQUFBO0VBQ0EsaUNBQUE7RUFDQSxrQkFBQTtFQUNBLGlDQUFBO0VBQ0EsV0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGtCQUFBO0VBQ0EscUJBQUE7RUFDQSxTQUFBO0VBQ0Esa0JBQUE7RUFDQSxRQUFBO0VBQ0EsNkJBQUE7QUNETDs7QURJQTs7RUFFSSxnQkFBQTtFQUNBLGVBQUE7QUNESiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
